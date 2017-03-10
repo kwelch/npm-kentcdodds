@@ -1,16 +1,16 @@
-# kentcdodds
+# kwelch
 
-[![version](https://img.shields.io/npm/v/kentcdodds.svg?style=flat-square)](http://npm.im/kentcdodds)
-[![downloads](https://img.shields.io/npm/dm/kentcdodds.svg?style=flat-square)](http://npm-stat.com/charts.html?package=kentcdodds&from=2015-08-01)
-[![MIT License](https://img.shields.io/npm/l/kentcdodds.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/kwelch.svg?style=flat-square)](http://npm.im/kwelch)
+[![downloads](https://img.shields.io/npm/dm/kwelch.svg?style=flat-square)](http://npm-stat.com/charts.html?package=kwelch&from=2015-08-01)
+[![MIT License](https://img.shields.io/npm/l/kwelch.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-I mostly made this to avoid someone else taking it first :-)
+I stole this idea from @kentcdodds 🤓
 
 ## Usage
 
 ```javascript
-var kentcdodds = require('kentcdodds')
-console.log(kentcdodds.name.first) // 'Kent'
+var kwelch = require('kwelch')
+console.log(kwelch.name.first) // 'Kyle'
 // ... etc
 ```
 

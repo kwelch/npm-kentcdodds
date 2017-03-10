@@ -1,20 +1,20 @@
 {
-  "name": "kentcdodds",
+  "name": "kwelch",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Kyle Welch <kyle@krwelch.com> (http://krwelch.com/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/npm-kentcdodds.git"
+    "url": "git+https://github.com/kwelch/npm-kwelch.git"
   },
   "bugs": {
-    "url": "https://github.com/kentcdodds/npm-kentcdodds/issues"
+    "url": "https://github.com/kwelch/npm-kwelch/issues"
   },
-  "homepage": "https://github.com/kentcdodds/npm-kentcdodds#readme",
+  "homepage": "https://github.com/kwelch/npm-kwelch#readme",
   "description": "me"
 }
