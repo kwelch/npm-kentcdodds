@@ -13,7 +13,6 @@ before_script:
 script:
   - yarn run build
   - yarn run test -- --coverage
-
 after_success:
   - yarn run report-coverage
   - yarn run release
