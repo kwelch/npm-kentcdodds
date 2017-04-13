@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   name: {
     first: 'Kyle',
     middle: 'Ryan',
@@ -9,5 +9,4 @@ module.exports = {
   github: 'https://github.com/kwelch',
   website: 'http://krwelch.com/',
   email: 'kyle@krwelch.com',
-}
-
+};

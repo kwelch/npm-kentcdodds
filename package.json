@@ -1,20 +1,41 @@
 {
   "name": "kwelch",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.0-development",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prebuild": "rimraf dist",
+    "build": "babel --copy-files --out-dir dist --ignore *.spec.js,__mocks__,__snapshots__ src",
+    "report-coverage": "codecov",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": [],
+  "keywords": [
+    "Kyle Welch",
+    "kwelch",
+    "krwelch"
+  ],
   "author": "Kyle Welch <kyle@krwelch.com> (http://krwelch.com/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kwelch/npm-kwelch.git"
+    "url": "https://github.com/kwelch/npm-kwelch.git"
   },
   "bugs": {
     "url": "https://github.com/kwelch/npm-kwelch/issues"
   },
   "homepage": "https://github.com/kwelch/npm-kwelch#readme",
-  "description": "me"
+  "description": "me",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.3.3",
+    "codecov": "^2.1.0",
+    "jest-cli": "^19.0.2",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^6.3.2"
+  },
+  "dependencies": {}
 }

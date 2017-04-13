@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`kwelch should return consistent object 1`] = `
+Object {
+  "birthday": "1990-06-26",
+  "email": "kyle@krwelch.com",
+  "github": "https://github.com/kwelch",
+  "name": Object {
+    "first": "Kyle",
+    "last": "Welch",
+    "middle": "Ryan",
+  },
+  "twitter": "https://twitter.com/kylewelch",
+  "website": "http://krwelch.com/",
+}
+`;
