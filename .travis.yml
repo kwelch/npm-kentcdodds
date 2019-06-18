@@ -1,13 +1,12 @@
 language: node_js
 sudo: false
-language: node_js
 cache:
   directories:
     - node_modules
 notifications:
   email: false
 node_js:
-  - '6'
+  - 'node'
 before_script:
   - npm prune
 script:
@@ -15,7 +14,4 @@ script:
   - yarn run test -- --coverage
 after_success:
   - yarn run report-coverage
-  - yarn run release
-branches:
-  only:
-    - master
+  - NPM_TOKEN=${NPM_TOKEN} GH_TOKEN=${GH_TOKEN} yarn run release

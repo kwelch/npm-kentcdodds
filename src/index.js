@@ -7,6 +7,6 @@ export default {
   birthday: '1990-06-26',
   twitter: 'https://twitter.com/kylewelch',
   github: 'https://github.com/kwelch',
-  website: 'http://www.krwelch.com/',
+  website: 'http://www.kwelch.dev/',
   email: 'kyle@krwelch.com',
 };
