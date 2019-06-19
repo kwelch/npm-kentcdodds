@@ -5,7 +5,7 @@
     "dist"
   ],
   "main": "dist/index.js",
-  "bin": {"kwelch": "dist/bin.js"},
+  "bin": "dist/bin.js",
   "scripts": {
     "test": "jest",
     "prebuild": "rimraf dist",
